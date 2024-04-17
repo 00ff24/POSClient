@@ -1,0 +1,66 @@
+object loginFrm: TloginFrm
+  Left = 0
+  Top = 0
+  Caption = 'Point Of Sale'
+  ClientHeight = 700
+  ClientWidth = 457
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object loginBtn: TButton
+    Position.X = 120.000000000000000000
+    Position.Y = 504.000000000000000000
+    Size.Width = 73.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'LOG IN'
+    OnClick = loginBtnClick
+  end
+  object exitBtn: TButton
+    Position.X = 208.000000000000000000
+    Position.Y = 504.000000000000000000
+    Size.Width = 73.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'EXIT'
+    OnClick = exitBtnClick
+  end
+  object userEdt: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    StyleLookup = 'editstyle'
+    TabOrder = 0
+    Text = 'admin'
+    Position.X = 120.000000000000000000
+    Position.Y = 400.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = userEdtClick
+  end
+  object passwordEdt: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Password = True
+    Text = 'admin'
+    Position.X = 120.000000000000000000
+    Position.Y = 456.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = passwordEdtClick
+  end
+  object Image1: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Position.X = 120.000000000000000000
+    Position.Y = 216.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 146.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
