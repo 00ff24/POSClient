@@ -2,18 +2,51 @@ object mainFrm: TmainFrm
   Left = 0
   Top = 0
   Caption = 'Point Of Sale - Main'
-  ClientHeight = 600
-  ClientWidth = 390
+  ClientHeight = 835
+  ClientWidth = 400
+  Fill.Color = xFFF0E4D4
+  Fill.Kind = Solid
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Orientations = [Portrait]
-  FormFactor.Devices = [Desktop]
+  FormFactor.Devices = [Desktop, iPhone, iPad]
   OnClose = FormClose
-  DesignerMasterStyle = 0
+  DesignerMasterStyle = 3
   object Button1: TButton
-    Position.X = 304.000000000000000000
-    Position.Y = 240.000000000000000000
+    StyledSettings = [Family, FontColor]
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 377.000000000000000000
+    Size.Height = 265.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'VENTAS'
+    TextSettings.Font.Size = 30.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TintColor = claYellow
+  end
+  object Button5: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 8.000000000000000000
+    Position.Y = 288.000000000000000000
+    Size.Width = 377.000000000000000000
+    Size.Height = 265.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'FACTURAS'
+    TextSettings.Font.Size = 30.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  object Button9: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 8.000000000000000000
+    Position.Y = 568.000000000000000000
+    Size.Width = 377.000000000000000000
+    Size.Height = 265.000000000000000000
+    Size.PlatformDefault = False
     TabOrder = 0
-    Text = 'Button1'
+    Text = 'CLIENTES'
+    TextSettings.Font.Size = 30.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
   end
 end

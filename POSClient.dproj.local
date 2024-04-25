@@ -17,7 +17,7 @@
   </Transactions>
 	<ActiveMobileDevice>
 		<Pmbp iOSSimulator="iPhone5"/>
-		<NoProfile Android="2020107c" Android64="2020107c"/>
+		<NoProfile Android="" Android64="2020107c"/>
 	</ActiveMobileDevice>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="android-support-v4.dex.jar"/>

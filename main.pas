@@ -10,6 +10,8 @@ uses
 type
   TmainFrm = class(TForm)
     Button1: TButton;
+    Button5: TButton;
+    Button9: TButton;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
   private
     { Private declarations }
@@ -24,7 +26,7 @@ implementation
 
 {$R *.fmx}
 
-//C.G. Cuando cierro el formulario principal se detiene la aplicacion.
+//C.G. Cuando cierro el formulario principal se detiene la aplicacion. (le doy hacia atras estando en el formulario main)
 procedure TmainFrm.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
 Application.Terminate;

@@ -2,31 +2,47 @@ object loginFrm: TloginFrm
   Left = 0
   Top = 0
   Caption = 'Point Of Sale'
-  ClientHeight = 700
-  ClientWidth = 457
+  ClientHeight = 835
+  ClientWidth = 400
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = claSkyblue
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = claWhite
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.500000000000000000
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.499999970197677600
+  Fill.Gradient.StopPosition.Y = 0.000000000000000000
+  Position = DesktopCenter
   FormFactor.Width = 320
   FormFactor.Height = 480
-  FormFactor.Devices = [Desktop]
+  FormFactor.Orientations = [Portrait]
+  FormFactor.Devices = [Desktop, iPhone, iPad]
   OnCreate = FormCreate
-  DesignerMasterStyle = 0
+  DesignerMasterStyle = 3
   object loginBtn: TButton
-    Position.X = 120.000000000000000000
-    Position.Y = 504.000000000000000000
-    Size.Width = 73.000000000000000000
+    Position.X = 96.000000000000000000
+    Position.Y = 536.000000000000000000
+    Size.Width = 105.000000000000000000
     Size.Height = 33.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 2
-    Text = 'LOG IN'
+    Text = 'INGRESAR'
     OnClick = loginBtnClick
   end
   object exitBtn: TButton
-    Position.X = 208.000000000000000000
-    Position.Y = 504.000000000000000000
-    Size.Width = 73.000000000000000000
+    Position.X = 200.000000000000000000
+    Position.Y = 536.000000000000000000
+    Size.Width = 97.000000000000000000
     Size.Height = 33.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 3
-    Text = 'EXIT'
+    Text = 'SALIR'
     OnClick = exitBtnClick
   end
   object userEdt: TEdit
@@ -34,9 +50,9 @@ object loginFrm: TloginFrm
     StyleLookup = 'editstyle'
     TabOrder = 0
     Text = 'admin'
-    Position.X = 120.000000000000000000
-    Position.Y = 400.000000000000000000
-    Size.Width = 169.000000000000000000
+    Position.X = 96.000000000000000000
+    Position.Y = 432.000000000000000000
+    Size.Width = 201.000000000000000000
     Size.Height = 32.000000000000000000
     Size.PlatformDefault = False
     OnClick = userEdtClick
@@ -46,9 +62,9 @@ object loginFrm: TloginFrm
     TabOrder = 1
     Password = True
     Text = 'admin'
-    Position.X = 120.000000000000000000
-    Position.Y = 456.000000000000000000
-    Size.Width = 169.000000000000000000
+    Position.X = 96.000000000000000000
+    Position.Y = 488.000000000000000000
+    Size.Width = 201.000000000000000000
     Size.Height = 32.000000000000000000
     Size.PlatformDefault = False
     OnClick = passwordEdtClick
@@ -57,10 +73,10 @@ object loginFrm: TloginFrm
     MultiResBitmap = <
       item
       end>
-    Position.X = 120.000000000000000000
-    Position.Y = 216.000000000000000000
-    Size.Width = 169.000000000000000000
-    Size.Height = 146.000000000000000000
+    Position.X = 96.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 178.000000000000000000
     Size.PlatformDefault = False
   end
 end
