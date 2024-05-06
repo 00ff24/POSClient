@@ -7,8 +7,9 @@ program POSClient;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  login in 'login.pas' {loginFrm},
-  main in 'main.pas' {mainFrm};
+  uLogin in 'uLogin.pas' {loginFrm},
+  uMain in 'uMain.pas' {mainFrm},
+  uClient in 'uClient.pas' {clientFrm};
 
 {$R *.res}
 
@@ -16,5 +17,6 @@ begin
   Application.Initialize;
   Application.CreateForm(TloginFrm, loginFrm);
   Application.CreateForm(TmainFrm, mainFrm);
+  Application.CreateForm(TclientFrm, clientFrm);
   Application.Run;
 end.

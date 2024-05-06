@@ -12,8 +12,15 @@
     <Transaction>2024/04/17 09:45:34.000.480,=C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\Unit1.pas</Transaction>
     <Transaction>2024/04/17 09:57:29.000.615,C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\mainFrm.fmx=C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\Unit1.fmx</Transaction>
     <Transaction>2024/04/17 09:57:29.000.615,C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\mainFrm.pas=C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\Unit1.pas</Transaction>
-    <Transaction>2024/04/17 09:57:55.000.438,C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\main.pas=C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\mainFrm.pas</Transaction>
     <Transaction>2024/04/17 09:57:55.000.438,C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\main.fmx=C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\mainFrm.fmx</Transaction>
+    <Transaction>2024/04/17 09:57:55.000.438,C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\main.pas=C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\mainFrm.pas</Transaction>
+    <Transaction>2024/05/02 17:38:28.000.941,=C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\Unit1.pas</Transaction>
+    <Transaction>2024/05/02 17:38:53.000.315,C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\uClient.fmx=C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\Unit1.fmx</Transaction>
+    <Transaction>2024/05/02 17:38:53.000.315,C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\uClient.pas=C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\Unit1.pas</Transaction>
+    <Transaction>2024/05/02 17:39:03.000.862,C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\uLogin.pas=C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\login.pas</Transaction>
+    <Transaction>2024/05/02 17:39:03.000.862,C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\uLogin.fmx=C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\login.fmx</Transaction>
+    <Transaction>2024/05/02 17:39:13.000.018,C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\uMain.fmx=C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\main.fmx</Transaction>
+    <Transaction>2024/05/02 17:39:13.000.018,C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\uMain.pas=C:\Users\desarrollador\Documents\Embarcadero\Studio\Projects\POSClient\main.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
 		<Pmbp iOSSimulator="iPhone5"/>
@@ -79,9 +86,11 @@
     <File Path="..\..\..\..\..\..\desarrollador"/>
     <File Path="..\..\..\..\..\Desktop"/>
     <File Path="..\..\..\..\..\Desktop\LoginPOS.bmp"/>
-    <File Path="login.pas"/>
-    <File Path="login.fmx"/>
-    <File Path="main.pas"/>
-    <File Path="main.fmx"/>
+    <File Path="uLogin.pas"/>
+    <File Path="uLogin.fmx"/>
+    <File Path="uMain.pas"/>
+    <File Path="uMain.fmx"/>
+    <File Path="uClient.pas"/>
+    <File Path="uClient.fmx"/>
   </ProjectSortOrder>
 </BorlandProject>
