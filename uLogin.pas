@@ -1,11 +1,11 @@
-unit login;
+unit uLogin;
 
 interface
 
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
-  FMX.Edit, FMX.Controls.Presentation, FMX.Objects, main;
+  FMX.Edit, FMX.Controls.Presentation, FMX.Objects, uMain, FMX.Layouts;
 
 type
   TloginFrm = class(TForm)
@@ -14,6 +14,7 @@ type
     userEdt: TEdit;
     passwordEdt: TEdit;
     Image1: TImage;
+    Layout1: TLayout;
     procedure FormCreate(Sender: TObject);
     procedure exitBtnClick(Sender: TObject);
     procedure loginBtnClick(Sender: TObject);

@@ -1,0 +1,75 @@
+object loginFrm: TloginFrm
+  Left = 0
+  Top = 0
+  Caption = 'Point Of Sale'
+  ClientHeight = 835
+  ClientWidth = 400
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Orientations = [Portrait]
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object Layout1: TLayout
+    Align = Center
+    Size.Width = 401.000000000000000000
+    Size.Height = 841.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object exitBtn: TButton
+      Position.X = 200.000000000000000000
+      Position.Y = 536.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'SALIR'
+      OnClick = exitBtnClick
+    end
+    object Image1: TImage
+      MultiResBitmap = <
+        item
+        end>
+      Position.X = 96.000000000000000000
+      Position.Y = 232.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 178.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object loginBtn: TButton
+      Position.X = 96.000000000000000000
+      Position.Y = 536.000000000000000000
+      Size.Width = 105.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'INGRESAR'
+      OnClick = loginBtnClick
+    end
+    object passwordEdt: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 1
+      Password = True
+      Text = 'admin'
+      Position.X = 96.000000000000000000
+      Position.Y = 488.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = passwordEdtClick
+    end
+    object userEdt: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      StyleLookup = 'editstyle'
+      TabOrder = 0
+      Text = 'admin'
+      Position.X = 96.000000000000000000
+      Position.Y = 432.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = userEdtClick
+    end
+  end
+end

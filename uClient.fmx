@@ -1,0 +1,64 @@
+object clientFrm: TclientFrm
+  Left = 0
+  Top = 0
+  Caption = 'Client'
+  ClientHeight = 841
+  ClientWidth = 401
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Size.Width = 401.000000000000000000
+    Size.Height = 841.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object searchBtn: TButton
+      Position.X = 304.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 81.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'buttonstyle'
+      TabOrder = 0
+      Text = 'Buscar'
+    end
+    object searchEdt: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 1
+      Text = 'Buscar producto...'
+      Position.X = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 289.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = searchEdtClick
+    end
+    object searchGrd: TGrid
+      CanFocus = True
+      ClipChildren = True
+      Position.X = 8.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 377.000000000000000000
+      Size.Height = 793.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Viewport.Width = 357.000000000000000000
+      Viewport.Height = 752.000000000000000000
+      object Nombre: TColumn
+        Header = 'Nombre'
+      end
+      object Precio: TColumn
+        Tag = 1
+        Header = 'Precio'
+      end
+      object Descripcion: TColumn
+        Tag = 2
+        Header = 'Descripci'#243'n'
+        Size.Width = 170.000000000000000000
+      end
+    end
+  end
+end
