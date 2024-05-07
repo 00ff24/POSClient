@@ -34,16 +34,10 @@ begin
 clientFrm.Show;
 end;
 
+
 procedure TmainFrm.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
-  TDialogService.MessageDialog('¿Quieres cerrar sesión?', TMsgDlgType.mtConfirmation,
-    [TMsgDlgBtn.mbYes, TMsgDlgBtn.mbNo], TMsgDlgBtn.mbNo, 0,
-    procedure(const AResult: TModalResult)
-    begin
-      case AResult of
-        mrYes: Application.Terminate;
-      end;
-    end);
+Application.Terminate;
 end;
 
 
