@@ -17,7 +17,7 @@ object mainFrm: TmainFrm
     Size.Height = 841.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
-    object Button1: TButton
+    object ventasBtn: TButton
       StyledSettings = [Family, FontColor]
       Position.X = 8.000000000000000000
       Position.Y = 8.000000000000000000
@@ -28,9 +28,9 @@ object mainFrm: TmainFrm
       Text = 'VENTAS'
       TextSettings.Font.Size = 30.000000000000000000
       TextSettings.Font.StyleExt = {00070000000000000004000000}
-      OnClick = Button1Click
+      OnClick = ventasBtnClick
     end
-    object Button5: TButton
+    object facturasBtn: TButton
       StyledSettings = [Family, FontColor]
       Position.X = 8.000000000000000000
       Position.Y = 288.000000000000000000
@@ -42,7 +42,7 @@ object mainFrm: TmainFrm
       TextSettings.Font.Size = 30.000000000000000000
       TextSettings.Font.StyleExt = {00070000000000000004000000}
     end
-    object Button9: TButton
+    object clientesBtn: TButton
       StyledSettings = [Family, FontColor]
       Position.X = 8.000000000000000000
       Position.Y = 568.000000000000000000
